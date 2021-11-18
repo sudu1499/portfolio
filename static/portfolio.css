@@ -1,0 +1,105 @@
+body{background-color: rgba(214,220,224,1);
+}
+h2{
+  font-size: 150%;
+
+}
+p{
+  font-size: 150%;
+  font-family: cursive;
+  font-weight: bold;
+}
+.aimg
+{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: rgba(1,1,1,1);
+  border-radius: 10px;
+  border: 10px;
+  border-style: double;
+
+}
+.im1{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+object-fit: cover;
+
+}
+.cont
+{
+  margin-top: 5vh;
+  width: 80%;
+  height: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+}
+table{
+  border-color: black;
+}
+#lfr,#acip,#medtrack,#chatbot{
+  position: relative;
+  width: 30%;
+  height:30%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.itsme
+{
+  position: absolute;
+  top:10vw;
+  left:7.5vw;
+  width: 80%;
+  height: 40%;
+  color: white;
+
+}
+.aimg:hover  .itsme{
+  box-shadow: 3px 3px 15px 10px rgba(153,255,0,10);
+  border-radius: 50px;
+  padding:1vw;
+  transition: .5s;
+color: rgba(153,255,0,10);
+font-size: 7vw;
+}
+.me{
+  margin-left: 5vw;
+  font-size: 4vw;
+  font-family: cursive;
+}
+/*.itsme:hover{
+  box-shadow: 3px 3px 15px 10px rgba(153,255,0,10);
+  border-radius: 50px;
+  padding:1vw;
+  transition: .5s;
+color: rgba(153,255,0,10);
+font-size: 7vw;
+}*/
+.lfrdiv{
+  background-color: rgba(1,1,0,1);
+  width:78vw;
+  height:30vw;
+  object-fit: cover;
+
+}
+.lfrinfo
+{
+  float: none;
+  font-style: oblique;
+  font-family: cursive;
+  width:auto;
+
+}
+#lfr:hover,#acip:hover,#medtrack:hover,#chatbot:hover
+{
+  box-shadow: 3px 3px 15px 6px rgba(0,0,0,1);
+  border-radius: 10px;
+  padding:.2vw;
+  transition: .5s;
+  background-color: rgba(100,100,100,1);
+}
